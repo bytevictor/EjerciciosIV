@@ -17,4 +17,44 @@ En mi caso uso el subsistema de windows para linux cada vez que necesito ejecuta
 
 Hemos reinstalado etcd, etcdctl y node-etcd en la máquina virtual.
 
-El archivo que vamos a ejecutar para obtener los valores es [el siguiente]()
+El archivo que vamos a ejecutar para obtener los valores es [el siguiente](https://github.com/bytevictor/EjerciciosIV/blob/master/H6/ejemploalmacenamiento.js)
+
+En esta primera ejecución no hemos incluido una de las dos variables que buscamos.
+
+![](img/ejec1.png)
+
+Parece que lanza una excepción pero es simplemetne la for que tiene de mostrar el error al no encontrar la clave.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Ejercicio 2
+
+Tras ejecutar los ejemplos hemos programado [El siguiente ejemplo](https://github.com/bytevictor/EjerciciosIV/blob/master/H6/express-ejemplo.js)
+
+Contamos con una función PUT con la que podemos añadir datos clave-valor con una petición PUT
+
+> curl -X PUT 127.0.0.1:5000/ejemplo/ejemplo1/valordelejemplo
+
+Y podemos obtener toda la lista de claves-valor almacenadas con:
+
+> curl -X PUT 127.0.0.1:5127.0.0.1:5000/ejemplo
+
+Ejemplo de ejecución
+
+![](img/salida_curl.png)
