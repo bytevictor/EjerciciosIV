@@ -11,7 +11,7 @@ Extensión para Typescript
 
 ![](img/typeext.png)
 
-## Prueba
+### Prueba
 
 En mi caso uso el subsistema de windows para linux cada vez que necesito ejecutar algo en linux, en este caso etcd tiene un problema que no lo hace compatible con el WSL, por ende he tenido que utilizar una máquina virtual con ubuntu 20 que tengo para este tipo de ocasiones (es bastante común que de fallos con ciertos programas, por ejemplo mongodb no funciona correctamente en WSL).
 
@@ -23,7 +23,7 @@ En esta primera ejecución no hemos incluido una de las dos variables que buscam
 
 ![](img/ejec1.png)
 
-Parece que lanza una excepción pero es simplemetne la for que tiene de mostrar el error al no encontrar la clave.
+Parece que lanza una excepción pero es simplemetne la forma que tiene de mostrar el error al no encontrar la clave.
 
 
 
@@ -43,7 +43,7 @@ Parece que lanza una excepción pero es simplemetne la for que tiene de mostrar 
 
 
 
-# Ejercicio 2
+# Ejercicio 2 y 3
 
 Tras ejecutar los ejemplos hemos programado [El siguiente ejemplo](https://github.com/bytevictor/EjerciciosIV/blob/master/H6/express-ejemplo.js)
 
@@ -58,3 +58,8 @@ Y podemos obtener toda la lista de claves-valor almacenadas con:
 Ejemplo de ejecución
 
 ![](img/salida_curl.png)
+
+# Ejercicio 4
+
+
+
