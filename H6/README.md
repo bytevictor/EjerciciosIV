@@ -25,23 +25,15 @@ En esta primera ejecución no hemos incluido una de las dos variables que buscam
 
 Parece que lanza una excepción pero es simplemetne la forma que tiene de mostrar el error al no encontrar la clave.
 
+Ahora añadimos una nueva clave valor usando
 
+> etcdctl put clave_nueva valor_nuevo
 
+Y al volver a ejecutar tenemos obtenemos desde el ejemplo.js los valores
 
+![](img/ejec2.png)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+Como vemos devuelve ambos valores correctamente
 
 # Ejercicio 2 y 3
 
