@@ -10,3 +10,12 @@ describe( "PUT ejemplo", function() {
        .expect(200,done);
     });
 });
+
+describe( "GET ejemplo", function() {
+  it('Deberia devolver las entradas antes introducidas', function (done) {
+    request(app)
+     .get('/ejemplo')
+     .expect('Content-Type', /json/)
+     .expect(200,done);
+  });
+});

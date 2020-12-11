@@ -20,7 +20,8 @@ app.put('/ejemplo/:clave/:valor',
 });
 
 app.get('/ejemplo', function(request, response) {
-response.send( JSON.stringify(ejemplos) );
+    console.log( JSON.stringify(ejemplos))
+    response.send( {ejemplos} );
 });
 
 app.listen(app.get('port'), function() {

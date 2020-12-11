@@ -53,5 +53,10 @@ Ejemplo de ejecución
 
 # Ejercicio 4
 
+Se han implementado dos tests, uno para cada ruta solicitada.
 
+Se pueden encontrar [AQUI](https://github.com/bytevictor/EjerciciosIV/blob/master/H6/test/tests-express.js)
 
+Los tests se pasan correctamente
+
+![](img/tests.png)
